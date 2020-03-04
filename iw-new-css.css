@@ -1,0 +1,94 @@
+.nav .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0 !important;
+        background-color: #086788;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+        margin-bottom: 4px;
+    }
+    .nav .nav-item:hover{
+        color: #fff !important;
+        background-color: red !important;
+    }
+    
+    .nav .nav-item:first-child{
+        border-left: 1px solid #086788;
+    }
+    .nav .nav-item:last-child{
+        border-right: 1px solid #086788;
+    }
+    .nav .nav-item .nav-link{
+        color: #fff;
+    }
+    .text-blue{
+        color: #086788;
+    }
+    .text-black{
+        color: #343B3F;
+    }
+    .content_image{
+        height: 100% !important;
+        object-fit: cover;
+    }
+    ul.list{
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+    ul.list li{
+        margin-bottom: 12px;
+        padding-right: 15px;
+    }
+    /* // Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .nav .nav-item {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            flex-basis: unset !important;
+            width: 50%;
+            font-size: 16px;
+            color:#ffffff !important;
+        }
+        .img-fluid{
+            height: auto !important;
+        }
+        ul { 
+            font-size: 10px;
+            columns: 2; 
+            -webkit-columns: 2; 
+            -moz-columns: 2; 
+        }
+        .nav .nav-item:nth-child(odd){
+            border-left: 1px solid #086788 !important;
+        }
+        .nav .nav-item:nth-child(even){
+            border-right: 1px solid #086788 !important;
+        }
+    }
+    /* // Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .nav .nav-item {
+            color: red !important;
+        }
+    }
+    /* // Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .nav .nav-item {
+            color: green !important;
+        }
+    }
+    /* // Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .nav .nav-item {
+            color: violet !important;
+        }
+    }
+    /* // Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+        .nav .nav-item {
+            color: yellow !important;
+        }
+    }
