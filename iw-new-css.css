@@ -15,6 +15,9 @@
         background-color: red !important;
     }
     
+        table,tbody,tr,td{
+    display: block !important;
+}
     .nav .nav-item:first-child{
         border-left: 1px solid #086788;
     }
