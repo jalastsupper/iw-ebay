@@ -11,8 +11,8 @@
         margin-bottom: 4px;
     }
     .nav .nav-item:hover{
-        color: #fff !important;
-        background-color: red !important;
+        background-color:#F18F01 !important;
+        transition: all 250ms ease-out !important;
     }
     
         table,tbody,tr,td{
