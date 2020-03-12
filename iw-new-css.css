@@ -14,6 +14,10 @@
         background-color:#F18F01 !important;
         transition: all 250ms ease-out !important;
     }
+    
+    table,tbody,tr,td{
+    display: block !important;
+}
      
     .nav .nav-item:first-child{
         border-left: 1px solid #086788;
